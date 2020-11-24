@@ -28,7 +28,7 @@ createCanvas(100,100);
 
 function draw() {
     Engine.update(engine);
-    background(rgb = 200, 400, 800);
+    background(new rgb(200, 400, 800));
     image(Image2,10,pa,10,10);
     image(Image1,10,10,50,35);
 rect(0,90,100,5);
